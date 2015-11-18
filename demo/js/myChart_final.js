@@ -50,7 +50,6 @@ function draw(data) {
           // Add the bars to the indicator and add event handlers
           var s = indicator.addSeries(null, dimple.plot.bar);
           s.addEventHandler("click", onClick);
-          indicator.addOrderRule("Survive rate of startups in this industry by status", "Desc")
           // Draw the side chart
           indicator.draw();
 
@@ -86,8 +85,8 @@ function draw(data) {
           s.shapes
                   .attr("rx", 10)
                   .attr("ry", 10)
-                  .style("fill", function (d) { return (d.y === ' Biotechnology ' ? indicatorColor.fill : defaultColor.fill) })
-                  .style("stroke", function (d) { return (d.y === ' Biotechnology ' ? indicatorColor.stroke : defaultColor.stroke) })
+                  .style("fill", function (d) { return (d.y === ' Social Media ' ? indicatorColor.fill : defaultColor.fill) })
+                  .style("stroke", function (d) { return (d.y === ' Social Media ' ? indicatorColor.stroke : defaultColor.stroke) })
                   .style("opacity", 0.5);
 
           // Draw the main chart
@@ -113,7 +112,7 @@ function draw(data) {
           // Change the frame duration
           story.frameDuration = frame;
           // Order the storyboard by date
-          story.addOrderRule("Survive rate of startups in this industry by status", "Desc");
+          story.addOrderRule("Survive rate of startups in this industry by status");
 
           // Draw the line chart
           charts.draw();
