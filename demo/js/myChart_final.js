@@ -33,7 +33,7 @@ function draw(data) {
           var indicatorColor = indicator.defaultColors[4];
 
           // The frame duration for the animation in milliseconds
-          var frame = 2500;
+          var frame = 2250;
 
           var firstTick = true;
 
@@ -112,7 +112,7 @@ function draw(data) {
           // Change the frame duration
           story.frameDuration = frame;
           // Order the storyboard by date
-          story.addOrderRule("Survive rate of startups in this industry by status");
+          story.addOrderRule("Survive rate of startups in this industry by status", "Desc");
 
           // Draw the line chart
           charts.draw();
