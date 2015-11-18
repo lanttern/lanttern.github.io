@@ -28,7 +28,7 @@ function draw_1st(data) {
           var myChart1 = new dimple.chart(svg, data);
           var x = myChart1.addTimeAxis("x", "Founded year of startups"); 
           var y = myChart1.addMeasureAxis("y", "Percentage of startups by industry");
-          var z = myChart1.addMeasureAxis("z", "Number of startups in this industry")
+          var z = myChart1.addMeasureAxis("z", "Number of startups in this industry by status")
           x.dateParseFormat = "%Y";
           x.tickFormat = "%Y";
           x.timeInterval = 1;
