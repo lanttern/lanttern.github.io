@@ -42,6 +42,7 @@ function draw_1st(data) {
           var Series2 = myChart1.addSeries("Startup industry", dimple.plot.scatter); // scatter chart
           var legend = myChart1.addLegend(width*0.7, 10, 200, 200, "right", [Series1, Series2]);
           legend.fontSize = "17px"; // set font size for legend
+          var story = myChart1.setStoryboard("Startup industry");
           myChart1.draw();
 
           /* set opacity for grids and circles
