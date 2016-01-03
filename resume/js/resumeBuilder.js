@@ -6,10 +6,11 @@ var bio = {
 	"name": "Zhihui XIE",
 	"role": "Becoming a Data Scientist",
 	"contacts": {
-	  "Mobile:": "323-208-1420",
 	  "Email:": "xiewisdom@gmail.com",
 	  "Github:": "https://github.com/lanttern/",
 	  "Portfolio:": "http://lanttern.github.io/projects/",
+	  "Udacity courses": "https://profiles.udacity.com/u/zhihuixie",
+	  "Coursera courses": "https://www.coursera.org/user/i/62d4a5f2f42d082ad17c306a4bb211eb",
 	  "Location:": "Los Angeles, California"
 	},
 	"picture":"images/picture.jpg",
@@ -49,12 +50,20 @@ var work = {
 var education = {
 	"schools":[
 	{
+		"name": "Coursera (Johns Hopkins University)",
+		"location": "Los Angeles, California",
+		"degree": "Specialization  ",
+		"major": "Genomic Data Science ",
+		"dates": "August 2015 - present",
+		"url": "https://www.coursera.org/user/i/62d4a5f2f42d082ad17c306a4bb211eb"
+	},
+	{
 		"name": "Udacity",
 		"location": "Los Angeles, California",
 		"degree": "Nanodegree",
 		"major": "Data Analyst",
 		"dates": "November 2014 - April 2015",
-		"url": "http://english.sibs.cas.cn/"
+		"url": "https://profiles.udacity.com/u/zhihuixie"
 	},
     {
 		"name": "Chinese Academy of Sciences",
@@ -74,19 +83,43 @@ var education = {
 	}],
   "onlineCourses":[
   {
-  	"title": ["Intro to Machine Learning", "Intro to HTML and CSS","JavaScript Basics", "Data Analysis with R", "Data Wrangling with MongoDB", "Intro to Data Science", "Intro to Computer Science"],
-  	"school": "Udacity (verified certificates)",
-  	"dates": ["March 2015", "March 2015", "March 2015", "February 2015", "December 2014", "December 2014", "February 2014"],
-  	"url": "https://www.udacity.com/"
+  	"title": ["Intro to HTML and CSS (Udacity)","JavaScript Basics (Udacity)", "Data Analysis with R (Udacity)", 
+  	          "Algorithmic Thinking (Coursera - Rice University)", "Principles of Computing (Coursera - Rice University)", 
+  	          "Intro to Computer Science (Udacity)", "Algorithms: Design and Analysis, Part 2 (Coursera - Stanford University)", 
+  	          "Algorithms: Design and Analysis, Part 1 (Coursera - Stanford University)",
+  	          "An Introduction to Interactive Programming in Python (Coursera - Rice University)"],
+  	"school": "Computer Science (Python, R, HTML and CSS, JavaScript, Algorithms)",
+  	"dates": ["March 2015", "March 2015", "February 2015","November 2014", "August 2014", "February 2014", "November 2013", "September 2013", "July 2013"],
+  	"url": ""
+  },
+   {
+  	"title": ["Introduction to Recommender Systems (Coursera - University of Minnesota)","Mining Massive Datasets (Coursera - Stanford University)",
+  	          "Machine Learning (Coursera - Stanford University)","Data Visualization (Udacity)","Intro to Machine Learning (Udacity)", 
+  	          "Data Analysis with R (Udacity)", "Data Wrangling with MongoDB (Udacity)", "Intro to Data Science (Udacity)"],
+  	"school": "Data Science (Data wrangle, Data exploration, Machine learning, Data visualization)",
+  	"dates": ["In progress","November 2015", "May 2015", "April 2015", "March 2015", "February 2015", "December 2014", "December 2014"],
+  	"url": ""
   },
   {
-  	"title": ["Machine Learning (Stanford University)", 
-  	           "Algorithmic Thinking (Rice University)", "Principles of Computing (Rice University)", "Bioinformatics Algorithms (Part 1) (University of California, San Diego)", 
-  	           "Algorithms: Design and Analysis, Part 2 (Stanford University)", "Algorithms: Design and Analysis, Part 1 (Stanford University)",
-  	           "An Introduction to Interactive Programming in Python (Rice University)"],
-  	"school": "Coursera",
-  	"dates": ["April 2015", "November 2014", "August 2014", "February 2014", "November 2013", "September 2013", "July 2013"],
-  	"url": "https://www.coursera.org/"
+  	"title": ["Managing Big Data with MySQL (Coursera - Duke University)", "Statistics for Genomic Data Science (Coursera - Johns Hopkins University)", 
+  	          "Probability (Coursera - University of Pennsylvania)", 
+  	          "Intro to Relational Databases (Udacity)", "Intro to Inferential Statistics (Udacity)", "Intro to Statistics (Udacity)"],
+  	"school": "Database and Statistics",
+  	"dates": ["In progress", "January 2016", "November 2015", "June 2015", "November 2014", "October 2014"],
+  	"url": ""
+  },
+  {
+  	"title": ["Statistics for Genomic Data Science (Coursera - Johns Hopkins University)",
+  	          "Bioconductor for Genomic Data Science (Coursera - Johns Hopkins University)",
+  	          "Algorithms for DNA Sequencing (Coursera - Johns Hopkins University)",
+  	          "Command Line Tools for Genomic Data Science (Coursera - Johns Hopkins University)",
+  	          "Python for Genomic Data Science (Coursera - Johns Hopkins University)",
+  	          "Genomic Data Science with Galaxy (Coursera - Johns Hopkins University)",
+  	          "Introduction to Genomic Technologies (Coursera - Johns Hopkins University)", 
+  	          "Bioinformatics Algorithms (Part 1) (University of California, San Diego)"],
+  	"school": "Genomic Data Science",
+  	"dates": ["January 2016","November 2015","October 2015","September 2015","September 2015","August 2015","August 2015","February 2014"],
+  	"url": ""
   }
   ]
 };
@@ -94,17 +127,18 @@ var education = {
 var projects = {
 	"projects": [
 	{
+	    "title": "Kaggle Competitions",
+	    "dates": "Active working on different competitions",
+	    "description": "Python and related packages (numpy, pandas, sklearn, plt) were used to process the data, train the data and predict the results.",
+	    "images": ["images/kaggle.jpg"]
+	},
+	{
 	    "title": "Make Effective Data Visualization: Trends for Ten Hot Startup Industries: 1990 to 2013",
 	    "dates": "April 2015",
 	    "description": "To discover the changes for ten startup industries from 1990 to 2013 each year, a time-series chart (left) was applied. In this chart, the percentages of startups by industry presented dynamic changes, but in general, two dominant industries - software and biotechnology, tend to shrink, and some startups in new industries increased. These changes seem to start from 2000. To explore if these trends are more obvious between two time periods - from 1990 to 1999 and from 2000 to 2013, the second chart (right) was applied to compare mean of percentages of startups by industry. Compared with 90s, the percentages of startups in software, biotechnology and consulting decrease obviously. While, the percentages of startups in new emeraged industries including social media, mobile and e-commerce incline to increase.",
 	    "images": ["images/d3_final2.png"]
 	},
-	{
-	    "title": "Kaggle Competition: Handwritten Digit Recognition",
-	    "dates": "March 2015",
-	    "description": "The goal for this project is to take an image of a handwritten digit, and identify what that digit is. The data for this project were taken from the MNIST dataset. In this project, python and related packages (numpy, pandas, sklearn, plt) were used to process the data, train the data and predict the results. Two built-in algorithms-k-nearest neighbors and random forest were performed for the predictions.",
-	    "images": ["images/kaggle.jpg", "images/kaggle_digit.jpg"]
-	},
+	
 	{
 	    "title": "Identifying Fraud from Enron Email",
 	    "dates": "February 2015",

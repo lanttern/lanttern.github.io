@@ -51,7 +51,7 @@ var HTMLschoolMajor = '<em><br>Major: %data%</em>';
 
 var HTMLonlineClasses = '<h3>Online Classes</h3>';
 var HTMLonlineSchool = '<a href="#">%data%';
-var HTMLonlineURL = ' - %data%</a>';
+var HTMLonlineURL = ' %data%</a>';
 var HTMLonlineTitle = '<h4>%data%';
 var HTMLonlineDates = ' - %data%</h4>';
 
