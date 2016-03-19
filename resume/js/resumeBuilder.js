@@ -1,6 +1,6 @@
 
 //$("#main").append(HTMLskillsStart)
-var skills = ["Python (pandas scikit-learn numpy)", "R (ggplot)", "SQL", "MongoDB", "Machine Learning","HTML&CSS", "Javascript", "D3.js"];
+var skills = ["Python (pandas scikit-learn numpy)", "R (ggplot)", "Java", "SQL", "MongoDB", "Machine Learning","HTML&CSS", "Javascript", "D3.js"];
 //$("#header").append(formattedSkills);
 var bio = {
 	"name": "Zhihui XIE",
@@ -8,9 +8,11 @@ var bio = {
 	"contacts": {
 	  "Email:": "xiewisdom@gmail.com",
 	  "Github:": "https://github.com/lanttern/",
-	  "Portfolio:": "http://lanttern.github.io/projects/",
-	  "Udacity courses": "https://profiles.udacity.com/u/zhihuixie",
-	  "Coursera courses": "https://www.coursera.org/user/i/62d4a5f2f42d082ad17c306a4bb211eb",
+	  "Data science portfolio:": "http://lanttern.github.io/projects/",
+	  "FreeCodeCamp portfolio:": "https://www.freecodecamp.com/lanttern",
+	  "Udacity courses:": "https://profiles.udacity.com/u/zhihuixie",
+	  "Coursera courses:": "https://www.coursera.org/user/i/62d4a5f2f42d082ad17c306a4bb211eb",
+	  "Kaggle profile:": "https://www.kaggle.com/zhihui",
 	  "Location:": "Los Angeles, California"
 	},
 	"picture":"images/picture.jpg",
@@ -50,11 +52,27 @@ var work = {
 var education = {
 	"schools":[
 	{
+		"name": "Coursera (University of California, San Diego)",
+		"location": "Los Angeles, California",
+		"degree": "Specialization  ",
+		"major": "Java Programming: Object-Oriented Design of Data Structures ",
+		"dates": "February 2016 - present",
+		"url": "https://www.coursera.org/specializations/java-object-oriented"
+	},
+	{
+		"name": "Coursera (University of Washington)",
+		"location": "Los Angeles, California",
+		"degree": "Specialization  ",
+		"major": "Machine Learning: Build Intelligent Applications ",
+		"dates": "January 2016 - present",
+		"url": "https://www.coursera.org/specializations/machine-learning"
+	},
+	{
 		"name": "Coursera (Johns Hopkins University)",
 		"location": "Los Angeles, California",
 		"degree": "Specialization  ",
 		"major": "Genomic Data Science ",
-		"dates": "August 2015 - present",
+		"dates": "August 2015 - January 2016",
 		"url": "https://www.coursera.org/user/i/62d4a5f2f42d082ad17c306a4bb211eb"
 	},
 	{
@@ -83,29 +101,29 @@ var education = {
 	}],
   "onlineCourses":[
   {
-  	"title": ["Intro to HTML and CSS (Udacity)","JavaScript Basics (Udacity)", "Data Analysis with R (Udacity)", 
+  	"title": ["Object Oriented Programming in Java","Intro to HTML and CSS (Udacity)","JavaScript Basics (Udacity)", "Data Analysis with R (Udacity)", 
   	          "Algorithmic Thinking (Coursera - Rice University)", "Principles of Computing (Coursera - Rice University)", 
   	          "Intro to Computer Science (Udacity)", "Algorithms: Design and Analysis, Part 2 (Coursera - Stanford University)", 
   	          "Algorithms: Design and Analysis, Part 1 (Coursera - Stanford University)",
   	          "An Introduction to Interactive Programming in Python (Coursera - Rice University)"],
-  	"school": "Computer Science (Python, R, HTML and CSS, JavaScript, Algorithms)",
-  	"dates": ["March 2015", "March 2015", "February 2015","November 2014", "August 2014", "February 2014", "November 2013", "September 2013", "July 2013"],
+  	"school": "Computer Science (Python, R, Java, HTML and CSS, JavaScript, Algorithms)",
+  	"dates": ["April 2016","March 2015", "March 2015", "February 2015","November 2014", "August 2014", "February 2014", "November 2013", "September 2013", "July 2013"],
   	"url": ""
   },
    {
-  	"title": ["Introduction to Recommender Systems (Coursera - University of Minnesota)","Mining Massive Datasets (Coursera - Stanford University)",
+  	"title": ["Machine Learning: Classification (Coursera - University of Washington)","Machine Learning: Regression (Coursera - University of Washington)","Introduction to Recommender Systems (Coursera - University of Minnesota)","Mining Massive Datasets (Coursera - Stanford University)",
   	          "Machine Learning (Coursera - Stanford University)","Data Visualization (Udacity)","Intro to Machine Learning (Udacity)", 
   	          "Data Analysis with R (Udacity)", "Data Wrangling with MongoDB (Udacity)", "Intro to Data Science (Udacity)"],
   	"school": "Data Science (Data wrangle, Data exploration, Machine learning, Data visualization)",
-  	"dates": ["In progress","November 2015", "May 2015", "April 2015", "March 2015", "February 2015", "December 2014", "December 2014"],
+  	"dates": ["April 2016","February 2016","February 2016","November 2015", "May 2015", "April 2015", "March 2015", "February 2015", "December 2014", "December 2014"],
   	"url": ""
   },
   {
-  	"title": ["Managing Big Data with MySQL (Coursera - Duke University)", "Statistics for Genomic Data Science (Coursera - Johns Hopkins University)", 
+  	"title": ["Using Databases with Python (Coursera - University of Michigan)","Managing Big Data with MySQL (Coursera - Duke University)", "Statistics for Genomic Data Science (Coursera - Johns Hopkins University)", 
   	          "Probability (Coursera - University of Pennsylvania)", 
   	          "Intro to Relational Databases (Udacity)", "Intro to Inferential Statistics (Udacity)", "Intro to Statistics (Udacity)"],
   	"school": "Database and Statistics",
-  	"dates": ["In progress", "January 2016", "November 2015", "June 2015", "November 2014", "October 2014"],
+  	"dates": ["February 2016","January 2016", "January 2016", "November 2015", "June 2015", "November 2014", "October 2014"],
   	"url": ""
   },
   {
