@@ -1,10 +1,10 @@
 
 //$("#main").append(HTMLskillsStart)
-var skills = ["Python (pandas scikit-learn numpy)", "R (ggplot)", "Java", "SQL", "MongoDB", "Machine Learning","HTML&CSS", "Javascript", "D3.js"];
+var skills = ["Python (pandas scikit-learn numpy)", "R (ggplot)", "Java", "SQL", "MongoDB", "Machine Learning","HTML&CSS", "Javascript", "Dimple.js"];
 //$("#header").append(formattedSkills);
 var bio = {
 	"name": "Zhihui XIE",
-	"role": "Becoming a Data Scientist",
+	"role": "Becoming a Data Scientist and Software Engineer",
 	"contacts": {
 	  "Email:": "xiewisdom@gmail.com",
 	  "Github:": "https://github.com/lanttern/",
@@ -51,6 +51,14 @@ var work = {
 
 var education = {
 	"schools":[
+	{
+		"name": "Georgia Institute of Technology",
+		"location": "Los Angeles, California",
+		"degree": "M.S. ",
+		"major": "Computer Science: Computer Systems and Machine Learning ",
+		"dates": "August 2016 - 2018 (expected)",
+		"url": "https://www.coursera.org/specializations/java-object-oriented"
+	},
 	{
 		"name": "Coursera (University of California, San Diego)",
 		"location": "Los Angeles, California",
@@ -149,6 +157,12 @@ var projects = {
 	    "dates": "Active working on different competitions",
 	    "description": "Python and related packages (numpy, pandas, sklearn, plt) were used to process the data, train the data and predict the results.",
 	    "images": ["images/kaggle.jpg"]
+	},
+	{
+	    "title": "Create Interactive Graphical Earthquake Map",
+	    "dates": "March 2016",
+	    "description": "Created an interactive graphical map that displays real time earthquake and city geospatial data. Built a search button to save 90% of time to find a city and the earthquakes information affected that city.",
+	    "images": ["images/Extension_Screen.png"]
 	},
 	{
 	    "title": "Make Effective Data Visualization: Trends for Ten Hot Startup Industries: 1990 to 2013",
